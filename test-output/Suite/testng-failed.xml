@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Data Provider concept(failed)">
+    <classes>
+      <class name="testNGBasics.DataProviderConceptusingTestNG">
+        <methods>
+          <include name="loginFun"/>
+        </methods>
+      </class> <!-- testNGBasics.DataProviderConceptusingTestNG -->
+    </classes>
+  </test> <!-- Data Provider concept(failed) -->
+</suite> <!-- Failed suite [Suite] -->

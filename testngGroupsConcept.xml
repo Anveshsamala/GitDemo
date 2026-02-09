@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Groups Concept">
+		<groups>
+			<run>
+				<include name="Smoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testNGBasics.VehicleLoan" />
+			<class name="testNGBasics.PersonalLoan" />
+			<class name="testNGBasics.GoldLoan" />
+			<class name="com.selenium.Stream1" />
+			<class name="testNGBasics.AnnotationsConcept" />
+		</classes>
+	</test>
+</suite>

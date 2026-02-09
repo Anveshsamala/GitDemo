@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan department">
+	<test name="Personal Loan module">
+		<classes>
+			<class name="testNGBasics.PersonalLoan">
+				<methods>
+					<include name="personalHomeLoan" />
+				</methods>
+			</class>
+			<class name="testNGBasics.VehicleLoan">
+				<methods>
+					<exclude name="vehicleBusLoan" />
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+	<test name="Gold loan module">
+		<classes>
+			<class name="testNGBasics.GoldLoan">
+				<methods>
+					<exclude name="gold.*"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Annotations module">
+		<classes>
+			<class name="testNGBasics.AnnotationsConcept"></class>
+		</classes>
+	</test>
+</suite>

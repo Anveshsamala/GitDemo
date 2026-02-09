@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-12T18:41:55 IST" name="Suite" finished-at="2026-01-12T18:41:55 IST" duration-ms="60">
+    <groups>
+    </groups>
+    <test started-at="2026-01-12T18:41:55 IST" name="Data Provider concept" finished-at="2026-01-12T18:41:55 IST" duration-ms="60">
+      <class name="testNGBasics.DataProviderConceptusingTestNG">
+        <test-method signature="loginFun(java.lang.String,java.lang.String)[pri:0, instance:testNGBasics.DataProviderConceptusingTestNG@2925bf5b]" started-at="2026-01-12T18:41:55 IST" name="loginFun" data-provider="getData" finished-at="2026-01-12T18:41:55 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[validUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[validPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFun -->
+        <test-method signature="loginFun(java.lang.String,java.lang.String)[pri:0, instance:testNGBasics.DataProviderConceptusingTestNG@2925bf5b]" started-at="2026-01-12T18:41:55 IST" name="loginFun" data-provider="getData" finished-at="2026-01-12T18:41:55 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InvalidUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[InvalidPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFun -->
+        <test-method signature="loginFun(java.lang.String,java.lang.String)[pri:0, instance:testNGBasics.DataProviderConceptusingTestNG@2925bf5b]" started-at="2026-01-12T18:41:55 IST" name="loginFun" data-provider="getData" finished-at="2026-01-12T18:41:55 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[partialUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[partialPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFun -->
+      </class> <!-- testNGBasics.DataProviderConceptusingTestNG -->
+    </test> <!-- Data Provider concept -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -10,7 +10,6 @@ public class StringReverse {
 			System.out.print(s.charAt(i));
 		}
 		System.out.println("");
-
 		// Using ToCharArray() method
 		String s1 = "SrinivasSwapna";
 		char[] ch = s1.toCharArray();
@@ -18,10 +17,10 @@ public class StringReverse {
 			System.out.print(ch[i]);
 		}
 		System.out.println("");
-
 		// Using StringBuffer
 		String s2 = "Rudvik";
 		System.out.println(new StringBuffer(s2).reverse());
+		System.out.println("scratch project changes");
 
 	}
 
